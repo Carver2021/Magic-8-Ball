@@ -1,0 +1,14 @@
+@lnezda
+
+import random
+
+#consult the magic 8 ball
+
+question = input("Ask your question: ")
+
+print("Your question was: ", question)
+
+
+answer = random.choice(['Looks good!', 'As the Fates Decree', 'Yes!', 'Are you sure thats wise?', 
+                        'Totally', 'Nope'])
+print('The Magic 8-Ball replies:', answer)
